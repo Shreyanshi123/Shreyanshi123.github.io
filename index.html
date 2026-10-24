@@ -1,246 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Shreyanshi Mishra | AI Full-Stack Engineer</title>
-<meta name="description" content="Shreyanshi Mishra is an AI full-stack engineer building backend systems, search, document intelligence and RAG applications.">
-<meta name="theme-color" content="#05070F">
-<meta property="og:title" content="Shreyanshi Mishra | AI Full-Stack Engineer">
-<meta property="og:description" content="Backend systems, search, document intelligence and RAG applications.">
-<meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235CE1FF'/%3E%3Cstop offset='1' stop-color='%238B6CFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='20' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-size='26' font-weight='700' text-anchor='middle' fill='%23050A18' font-family='Arial,sans-serif'%3ESM%3C/text%3E%3C/svg%3E">
-<script>document.documentElement.classList.add("js");</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&family=Sora:wght@300..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shreyanshi Mishra | AI Full-Stack Engineer</title>
+  <meta name="description" content="Shreyanshi Mishra is an AI full-stack engineer building backend systems, search, document intelligence and RAG applications.">
+  <meta name="theme-color" content="#05070F">
+  <meta property="og:title" content="Shreyanshi Mishra | AI Full-Stack Engineer">
+  <meta property="og:description" content="Backend systems, search, document intelligence and RAG applications.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235CE1FF'/%3E%3Cstop offset='1' stop-color='%238B6CFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23050A18'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='28' fill='url(%23g)' font-family='Arial, Helvetica, sans-serif' font-weight='700'%3ES%3C/text%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&family=Sora:wght@300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portfolio-overrides.css">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main">Skip to content</a>
 
-<!-- ambient background -->
-<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
-<div class="grain" aria-hidden="true"></div>
-<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
-<div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
 
-<!-- NAV -->
-<div class="nav-wrap">
-  <header class="nav" id="nav">
-    <a class="brand" href="#top" aria-label="Shreyanshi Mishra, back to top">
-      <span class="brand-mark" aria-hidden="true">SM</span>
-      <span class="brand-name">Shreyanshi Mishra</span>
-    </a>
-    <nav class="nav-links" id="navLinks" aria-label="Sections">
-      <span class="nav-pill" id="navPill" aria-hidden="true"></span>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="nav-tools">
-      <button class="tool" id="openSearch" type="button" aria-label="Search my résumé">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <span class="tool-label">Search</span>
-        <kbd>Ctrl K</kbd>
-      </button>
-      <button class="tool icon-only menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
-      </button>
-    </div>
-  </header>
-</div>
-
-<main id="main">
-
-  <!-- HERO -->
-  <section class="hero" id="top">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <h1><span>Shreyanshi</span><span>Mishra</span></h1>
-        <p class="hero-line" aria-label="I build backend APIs, search systems, RAG applications and document pipelines.">I build <span class="typed" id="typed" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span></p>
-        <p class="hero-sub">I'm an AI full-stack engineer at Evalueserve in Gurugram. I work on APIs, search and LLM features, from the first endpoint to deployment.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary magnetic" href="#projects">View my work</a>
-          <a class="btn btn-glass magnetic" data-resume href="assets/Shreyanshi_Mishra_Resume.pdf" download>Download résumé</a>
-        </div>
-        <ul class="socials" aria-label="Find me online">
-          <li><a class="social" href="https://github.com/Shreyanshi123" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg></a></li>
-          <li><a class="social" href="https://www.linkedin.com/in/shreyanshi-mishra-151508224/" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.78-2.07 4.05 0 4.8 2.67 4.8 6.13v5.87h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75v5.29h-4V9.75Z"/></svg></a></li>
-          <li><a class="social" href="mailto:shreyanshimishra7689@gmail.com" aria-label="Email">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 8l8 6 8-6"/></svg></a></li>
-        </ul>
+  <div class="nav-wrap">
+    <header class="nav" id="nav">
+      <a class="brand" href="#top" aria-label="Shreyanshi Mishra, back to top">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-name">Shreyanshi Mishra</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Sections">
+        <span class="nav-pill" id="navPill" aria-hidden="true"></span>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-tools">
+        <button class="tool" id="openSearch" type="button" aria-label="Search my résumé">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <span class="tool-label">Search</span>
+          <kbd>Ctrl K</kbd>
+        </button>
+        <button class="tool icon-only menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
       </div>
+    </header>
+  </div>
 
-      <div class="hero-visual" id="heroVisual">
-        <div class="tilt" id="tilt">
-          <div class="hero-card">
-            <img src="assets/omnimemory.webp" alt="A glowing AI brain hovering above an open book in a grand library" width="1312" height="736">
-            <div class="hero-shade"></div>
-            <div class="status-card">
-              <span class="pulse" aria-hidden="true"></span>
-              <div>
-                <strong>Software Engineer</strong>
-                <span>Evalueserve, Gurugram</span>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1><span>Shreyanshi</span><span>Mishra</span></h1>
+          <p class="hero-line" aria-label="I build backend APIs, search systems, RAG applications and document pipelines.">I build <span class="typed" id="typed" aria-hidden="true"></span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="hero-sub">I'm an AI full-stack engineer at Evalueserve in Gurugram. I work on APIs, search and LLM features, from the first endpoint to deployment.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#projects">View my work</a>
+            <a class="btn btn-glass magnetic" data-resume href="assets/Shreyanshi_Mishra_Resume.pdf" download>Download résumé</a>
+          </div>
+          <ul class="socials" aria-label="Find me online">
+            <li><a class="social" href="https://github.com/Shreyanshi123" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.38-3.87-1.38-.52-1.34-1.27-1.7-1.27-1.7-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.27-5.24-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.39-2.7 5.35-5.27 5.63.41.36.78 1.08.78 2.18v3.24c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </a></li>
+            <li><a class="social" href="https://www.linkedin.com/in/shreyanshi-mishra-151508224/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.83v1.57h.06c.53-1 1.85-2.05 3.81-2.05 4.08 0 4.83 2.68 4.83 6.17v4.81h-4v-4.5c0-1.07-.02-2.45-1.49-2.45-1.5 0-1.73 1.17-1.73 2.37v4.58h-4V9.75Z"/></svg>
+            </a></li>
+            <li><a class="social" href="mailto:shreyanshimishra7689@gmail.com" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" id="heroVisual">
+          <div class="tilt" id="tilt">
+            <div class="hero-card">
+              <img src="assets/omnimemory.webp" alt="A glowing AI brain hovering above an open book in a grand library" width="1312" height="736">
+              <div class="hero-shade"></div>
+              <div class="status-card">
+                <span class="pulse" aria-hidden="true"></span>
+                <div>
+                  <strong>Software Engineer</strong>
+                  <span>Evalueserve, Gurugram</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="fchip" style="--x:10%;--y:-3%;--depth:26"><button class="chip-btn" type="button" data-q="RAG" style="--delay:0s" aria-label="Search my résumé for RAG">RAG</button></div>
-          <div class="fchip" style="--x:78%;--y:2%;--depth:34"><button class="chip-btn" type="button" data-q="FastAPI" style="--delay:-1.4s" aria-label="Search my résumé for FastAPI">FastAPI</button></div>
-          <div class="fchip" style="--x:-3%;--y:64%;--depth:40"><button class="chip-btn" type="button" data-q="Elasticsearch" style="--delay:-2.6s" aria-label="Search my résumé for Elasticsearch">Elasticsearch</button></div>
-          <div class="fchip" style="--x:74%;--y:84%;--depth:30"><button class="chip-btn" type="button" data-q="Azure AD" style="--delay:-3.8s" aria-label="Search my résumé for Azure AD">Azure AD</button></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS STRIP -->
-  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
-
-  <!-- ABOUT -->
-  <section class="section" id="about" data-source="About">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <h2>About me</h2>
-        <p class="lede">A backend engineer who likes working where search, documents and language models meet.</p>
-      </div>
-      <div class="bento">
-        <article class="tile glass s7 r2 reveal">
-          <p class="statement chunk">I'm a software engineer building enterprise applications, REST APIs and document-processing workflows, and adding LLM and RAG features on top of them.</p>
-          <p class="body-copy chunk">At Evalueserve I help build SearchLego and ViSense: the APIs, search and document pieces that sit underneath them. Away from my day job I build my own tools, like a RAG-based knowledge engine and a chat studio for AI characters, because I learn best by building something end to end.</p>
-        </article>
-        <article class="tile glass s5 reveal" style="--d:.08s">
-          <p class="tile-label">Based in</p>
-          <p class="tile-big chunk">Gurugram, India</p>
-          <p class="clock"><span id="clock">--:--</span><span class="clock-note">local time</span></p>
-        </article>
-        <article class="tile glass s5 reveal" style="--d:.16s">
-          <div class="stats">
-            <div class="stat"><span class="num" data-count="2">0</span><span class="stat-label">roles at Evalueserve</span></div>
-            <div class="stat"><span class="num" data-count="3">0</span><span class="stat-label">projects built</span></div>
-            <div class="stat"><span class="num" id="skillCount" data-count="0">0</span><span class="stat-label">skills I work with</span></div>
-            <div class="stat"><span class="num" data-count="8.37" data-dec="2">0</span><span class="stat-label">CGPA out of 10</span></div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="section" id="experience">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <h2>Experience</h2>
-        <p class="lede">Where I've worked and studied. Open a card for the details.</p>
-      </div>
-      <ol class="timeline" id="timeline"></ol>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <h2>Projects</h2>
-        <p class="lede">Things I've built. Click a card to see what's inside.</p>
-      </div>
-      <div class="pbento" id="pgrid"></div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section" id="skills">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <h2>Skills</h2>
-        <p class="lede">Pick a category, then click a skill to see where I've used it. A dot means it shows up in my work.</p>
-      </div>
-      <div class="explorer glass reveal">
-        <div class="cats" id="cats" role="tablist" aria-orientation="vertical" aria-label="Skill categories"></div>
-        <div class="explore-main">
-          <ul class="skill-cloud" id="skillCloud" role="tabpanel" aria-label="Skills"></ul>
-          <div class="usage" id="usage" role="status" aria-live="polite"><span class="usage-text">Nothing selected yet.</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section" id="contact" data-source="Contact">
-    <div class="wrap">
-      <div class="cta glass reveal">
-        <div class="cta-copy">
-          <h2>Let's talk about your next backend or AI project.</h2>
-          <p class="lede chunk">Write to me, or find me on LinkedIn and GitHub. I'm happy to talk about search, document pipelines and LLM applications.</p>
-          <a class="cta-email" id="emailLink" href="mailto:shreyanshimishra7689@gmail.com">shreyanshimishra7689@gmail.com</a>
-          <div class="cta-actions">
-            <button class="btn btn-glass" id="copyBtn" type="button">Copy email</button>
-            <a class="btn btn-glass" href="https://www.linkedin.com/in/shreyanshi-mishra-151508224/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-glass" href="https://github.com/Shreyanshi123" target="_blank" rel="noopener">GitHub</a>
-            <span class="sr-only" id="copyStatus" role="status" aria-live="polite"></span>
+            <div class="fchip" style="--x:10%;--y:-3%;--depth:26"><button class="chip-btn" type="button" data-q="RAG" style="--delay:0s" aria-label="Search my résumé for RAG">RAG</button></div>
+            <div class="fchip" style="--x:78%;--y:2%;--depth:34"><button class="chip-btn" type="button" data-q="FastAPI" style="--delay:-1.4s" aria-label="Search my résumé for FastAPI">FastAPI</button></div>
+            <div class="fchip" style="--x:-3%;--y:64%;--depth:40"><button class="chip-btn" type="button" data-q="Elasticsearch" style="--delay:-2.6s" aria-label="Search my résumé for Elasticsearch">Elasticsearch</button></div>
+            <div class="fchip" style="--x:74%;--y:84%;--depth:30"><button class="chip-btn" type="button" data-q="Azure AD" style="--delay:-3.8s" aria-label="Search my résumé for Azure AD">Azure AD</button></div>
           </div>
         </div>
-        <form class="form" id="contactForm" novalidate>
-          <h3>Send a quick message</h3>
-          <div class="field">
-            <label for="cfName">Your name</label>
-            <input id="cfName" name="name" type="text" autocomplete="name" placeholder="Jane Doe">
-          </div>
-          <div class="field">
-            <label for="cfEmail">Your email</label>
-            <input id="cfEmail" name="email" type="email" autocomplete="email" placeholder="jane@company.com">
-          </div>
-          <div class="field">
-            <label for="cfMsg">Message</label>
-            <textarea id="cfMsg" name="message" rows="4" placeholder="Hi Shreyanshi, I'd like to talk about..."></textarea>
-          </div>
-          <button class="btn btn-primary" type="submit">Open in my email app</button>
-          <p class="form-note" id="formNote" role="status" aria-live="polite">This opens your email app with the message filled in. Nothing is sent from this page.</p>
-        </form>
       </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+    <section class="section" id="about" data-source="About">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>About me</h2>
+          <p class="lede">A backend engineer who likes working where search, documents and language models meet.</p>
+        </div>
+        <div class="bento">
+          <article class="tile glass s7 r2 reveal">
+            <p class="statement chunk">I'm a software engineer building enterprise applications, REST APIs and document-processing workflows, and adding LLM and RAG features on top of them.</p>
+            <p class="body-copy chunk">At Evalueserve I help build SearchLego and ViSense: the APIs, search and document pieces that sit underneath them. Away from my day job I build my own tools, prototypes and AI products that sit at the intersection of software engineering and intelligent systems.</p>
+          </article>
+          <article class="tile glass s5 reveal" style="--d:.08s">
+            <p class="tile-label">Based in</p>
+            <p class="tile-big chunk">Gurugram, India</p>
+            <p class="clock"><span id="clock">--:--</span><span class="clock-note">local time</span></p>
+          </article>
+          <article class="tile glass s5 reveal" style="--d:.16s">
+            <div class="stats">
+              <div class="stat"><span class="num" data-count="2">0</span><span class="stat-label">roles at Evalueserve</span></div>
+              <div class="stat"><span class="num" data-count="3">0</span><span class="stat-label">projects built</span></div>
+              <div class="stat"><span class="num" id="skillCount" data-count="0">0</span><span class="stat-label">skills I work with</span></div>
+              <div class="stat"><span class="num" data-count="8.37" data-dec="2">0</span><span class="stat-label">CGPA out of 10</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Experience</h2>
+          <p class="lede">Where I've worked and studied. Open a card for the details.</p>
+        </div>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p class="lede">Things I've built. Click a card to see what's inside.</p>
+        </div>
+        <div class="pbento" id="pgrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p class="lede">Pick a category, then click a skill to see where I've used it. A dot means it shows up in my work.</p>
+        </div>
+        <div class="explorer glass reveal">
+          <div class="cats" id="cats" role="tablist" aria-orientation="vertical" aria-label="Skill categories"></div>
+          <div class="explore-main">
+            <ul class="skill-cloud" id="skillCloud" role="tabpanel" aria-label="Skills"></ul>
+            <div class="usage" id="usage" role="status" aria-live="polite"><span class="usage-text">Nothing selected yet.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" data-source="Contact">
+      <div class="wrap">
+        <div class="cta glass reveal">
+          <div class="cta-copy">
+            <h2>Let's talk about your next backend or AI project.</h2>
+            <p class="lede chunk">Write to me, or find me on LinkedIn and GitHub. I'm happy to talk about search, document pipelines and LLM applications.</p>
+            <a class="cta-email" id="emailLink" href="mailto:shreyanshimishra7689@gmail.com">shreyanshimishra7689@gmail.com</a>
+            <div class="cta-actions">
+              <button class="btn btn-glass" id="copyBtn" type="button">Copy email</button>
+              <a class="btn btn-glass" href="https://www.linkedin.com/in/shreyanshi-mishra-151508224/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="btn btn-glass" href="https://github.com/Shreyanshi123" target="_blank" rel="noopener">GitHub</a>
+              <span class="sr-only" id="copyStatus" role="status" aria-live="polite"></span>
+            </div>
+          </div>
+          <form class="form" id="contactForm" novalidate>
+            <h3>Send a quick message</h3>
+            <div class="field">
+              <label for="cfName">Your name</label>
+              <input id="cfName" name="name" type="text" autocomplete="name" placeholder="Jane Doe">
+            </div>
+            <div class="field">
+              <label for="cfEmail">Your email</label>
+              <input id="cfEmail" name="email" type="email" autocomplete="email" placeholder="jane@company.com">
+            </div>
+            <div class="field">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" name="message" rows="4" placeholder="Hi Shreyanshi, I'd like to talk about..."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Open in my email app</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite">This opens your email app with the message filled in. Nothing is sent from this page.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <span>&copy; 2026 Shreyanshi Mishra</span>
+      <a href="#top">Back to top</a>
     </div>
-  </section>
+  </footer>
 
-</main>
+  <dialog class="pdialog" id="projectDialog" aria-label="Project details">
+    <button class="pd-close round" id="pdClose" type="button" aria-label="Close project details">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div id="pdBody"></div>
+  </dialog>
 
-<footer class="footer">
-  <div class="wrap footer-row">
-    <span>&copy; 2026 Shreyanshi Mishra</span>
-    <a href="#top">Back to top</a>
-  </div>
-</footer>
-
-<!-- PROJECT DETAIL -->
-<dialog class="pdialog" id="projectDialog" aria-label="Project details">
-  <button class="pd-close round" id="pdClose" type="button" aria-label="Close project details">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
-  </button>
-  <div id="pdBody"></div>
-</dialog>
-
-<!-- SEARCH -->
-<dialog class="palette" id="searchDialog" aria-label="Search my résumé">
-  <div class="palette-box">
-    <div class="palette-field">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      <input class="palette-input" id="q" type="text" placeholder="Search a skill, tool or topic" autocomplete="off" spellcheck="false" aria-label="Search my résumé">
-      <button class="palette-close" id="closeSearch" type="button" aria-label="Close search">Esc</button>
+  <dialog class="palette" id="searchDialog" aria-label="Search my résumé">
+    <div class="palette-box">
+      <div class="palette-field">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input class="palette-input" id="q" type="text" placeholder="Search a skill, tool or topic" autocomplete="off" spellcheck="false" aria-label="Search my résumé">
+        <button class="palette-close" id="closeSearch" type="button" aria-label="Close search">Esc</button>
+      </div>
+      <div class="palette-body">
+        <div class="suggest" id="suggest" aria-label="Suggested searches"></div>
+        <ul class="results" id="results"></ul>
+      </div>
+      <p class="palette-foot">Finds matching words across this page and jumps to them. It runs in your browser.</p>
     </div>
-    <div class="palette-body">
-      <div class="suggest" id="suggest" aria-label="Suggested searches"></div>
-      <ul class="results" id="results"></ul>
-    </div>
-    <p class="palette-foot">Finds matching words across this page and jumps to them. It runs in your browser.</p>
-  </div>
-</dialog>
+  </dialog>
 
-<noscript><p class="noscript">This portfolio needs JavaScript to show my projects and experience. You can reach me at shreyanshimishra7689@gmail.com.</p></noscript>
+  <noscript><p class="noscript">This portfolio needs JavaScript to show my projects and experience. You can reach me at shreyanshimishra7689@gmail.com.</p></noscript>
 
-<script src="data.js"></script>
-<script src="script.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
