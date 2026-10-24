@@ -65,6 +65,42 @@ window.SITE = {
 
   projects: [
     {
+      id: "recruit-ai",
+      name: "RecruitAI",
+      kind: "AI-powered technical hiring platform",
+      when: "2025",
+      image: "assets/recruit-ai.svg",
+      alt: "AI hiring and assessment platform visual",
+      filters: ["AI", "Full-stack"],
+      summary: "A full-stack agentic assessment platform that combines AI-powered evaluation, secure coding sandboxing, and recruiter workflows for structured technical hiring.",
+      points: [
+        "Designed assessment flows that connect JD analysis, candidate scoring, and recruiter review in one system.",
+        "Built guardrails and sandboxed evaluation logic to assess candidate submissions safely and consistently.",
+        "Developed a modular AI stack with FastAPI, React, and orchestration layers for interviews and analytics."
+      ],
+      tags: ["Python", "FastAPI", "React", "AI", "Hiring", "LangGraph"],
+      skills: ["Python", "FastAPI", "React", "TypeScript", "LangGraph", "AI evaluation", "Security", "Full-stack"],
+      repo: "https://github.com/Shreyanshi123/Recruit-AI"
+    },
+    {
+      id: "doc-parsing",
+      name: "Doc Parsing Engine",
+      kind: "Document intelligence and parser benchmarking",
+      when: "2025",
+      image: "assets/doc-parsing.svg",
+      alt: "Document intelligence and parser comparison visual",
+      filters: ["AI", "Backend"],
+      summary: "A document parsing system that routes uploads or blob URLs through multiple engines, normalizes output to Markdown, and compares parser quality on the same input.",
+      points: [
+        "Built a parser router that supports OCR-heavy, PDF, DOCX, PPTX, and spreadsheet workflows across multiple engines.",
+        "Created a side-by-side comparison flow to benchmark extraction quality, structure preservation, and downstream usability.",
+        "Implemented async job handling, provider checks, and local/cloud output storage for enterprise-style document pipelines."
+      ],
+      tags: ["Python", "FastAPI", "OCR", "RAG", "Document AI"],
+      skills: ["Python", "FastAPI", "OCR", "Document parsing", "Evaluation", "LLMs", "Azure"],
+      repo: "https://github.com/Shreyanshi123/doc-parsing"
+    },
+    {
       id: "omnimemory",
       name: "OmniMemory",
       kind: "AI-powered personal knowledge engine",
@@ -72,11 +108,11 @@ window.SITE = {
       image: "assets/omnimemory.webp",
       alt: "A glowing AI brain hovering above an open book in a grand library",
       filters: ["AI", "Full-stack"],
-      summary: "Drop in your PDFs, Word files and text notes, then search them by meaning or just ask questions. It answers from your own documents using RAG.",
+      summary: "A personal knowledge workspace that turns PDFs, word docs, and notes into a searchable, conversational memory layer powered by RAG.",
       points: [
-        "Ingests PDF, DOCX and TXT files for semantic search and conversational querying, using RAG, Hugging Face embeddings and ChromaDB.",
-        "Summarizes each document and picks out topics, sentiment and language automatically.",
-        "FastAPI backend with a Next.js frontend."
+        "Ingested PDFs, DOCX files, and notes for semantic search and conversational querying using embeddings and retrieval.",
+        "Added summarization and metadata extraction so documents can be explored by topic, sentiment, and language.",
+        "Built the platform with a FastAPI backend and a polished Next.js interface."
       ],
       tags: ["Python", "FastAPI", "LangChain", "ChromaDB", "Groq", "Next.js"],
       skills: ["Python", "FastAPI", "LangChain", "ChromaDB", "Groq", "Next.js", "RAG", "Embeddings", "Hugging Face"],
@@ -90,51 +126,15 @@ window.SITE = {
       image: "assets/persona.webp",
       alt: "A translucent AI figure beside open books, scales and a gavel",
       filters: ["AI"],
-      summary: "Design AI characters with their own personalities and talk to them. Put several in one room and they chat, and even debate, on their own.",
+      summary: "A conversational playground for designing AI personalities with consistent behavior, role-based context, and multi-character interaction flows.",
       points: [
-        "Configurable personalities with context-aware conversations and consistent character behavior.",
-        "Multi-character conversations, autonomous interactions and debates.",
-        "Docker-based deployment."
+        "Built configurable personas with distinct tone, memory, and behavioral context.",
+        "Enabled multi-character conversations and debate-style interaction patterns for richer simulations.",
+        "Deployed the product using a lightweight Docker-based architecture for fast iteration."
       ],
       tags: ["Python", "Groq", "Streamlit", "Docker"],
       skills: ["Python", "Groq", "Streamlit", "Docker"],
       repo: null
-    },
-    {
-      id: "recruit-ai",
-      name: "RecruitAI",
-      kind: "AI-powered technical hiring platform",
-      when: "2025",
-      image: "assets/recruit-ai.svg",
-      alt: "AI hiring and assessment platform visual",
-      filters: ["AI", "Full-stack"],
-      summary: "A full-stack agentic assessment platform for technical hiring, combining AI evaluation, secure coding sandboxing, and recruiter workflows for candidate screening.",
-      points: [
-        "Supports job-to-candidate analysis, interview flow generation, and scoring workflows.",
-        "Uses secure sandboxed code evaluation and guardrails to assess candidate submissions responsibly.",
-        "Built with FastAPI, React, and a modular AI pipeline for interviews and analytics."
-      ],
-      tags: ["Python", "FastAPI", "React", "AI", "Hiring", "LangGraph"],
-      skills: ["Python", "FastAPI", "React", "TypeScript", "LangGraph", "AI evaluation", "Security", "Full-stack"],
-      repo: "https://github.com/Shreyanshi123/Recruit-AI"
-    },
-    {
-      id: "doc-parsing",
-      name: "Doc Parsing POC",
-      kind: "Document intelligence and parser benchmarking",
-      when: "2025",
-      image: "assets/doc-parsing.svg",
-      alt: "Document intelligence and parser comparison visual",
-      filters: ["AI", "Backend"],
-      summary: "A document parsing platform that routes uploaded files or blob URLs through multiple parser engines, normalizes output to Markdown, and compares engine performance on the same document.",
-      points: [
-        "Supports multiple document parsers for PDFs, DOCX, PPTX, XLSX and OCR-heavy inputs.",
-        "Compares parser quality side by side and surfaces a benchmark-ready evaluation flow.",
-        "FastAPI backend with async jobs, provider checks, and cloud/local storage support."
-      ],
-      tags: ["Python", "FastAPI", "OCR", "RAG", "Document AI"],
-      skills: ["Python", "FastAPI", "OCR", "Document parsing", "Evaluation", "LLMs", "Azure"],
-      repo: "https://github.com/Shreyanshi123/doc-parsing"
     },
     {
       id: "airline",
@@ -144,10 +144,10 @@ window.SITE = {
       image: "assets/airline.svg",
       alt: "Illustration of a flight route between two points next to a boarding pass",
       filters: ["Full-stack", "Backend"],
-      summary: "A booking site where you search for flights, book them and manage your reservations, backed by a SQL database and secure sign-in.",
+      summary: "A booking experience for searching flights, managing reservations, and handling user journeys with secure authentication and backend workflows.",
       points: [
-        "User authentication, registration and secure session management.",
-        "Backend APIs and database operations for flight scheduling, passenger information, booking records and transactions."
+        "Implemented user authentication, registration, and secure session management.",
+        "Built backend APIs and database integrations for ticketing, booking records, and scheduling flows."
       ],
       tags: [".NET", "C#", "SQL", "REST APIs", "Angular"],
       skills: [".NET", "C#", "SQL", "REST APIs", "Angular", "Authentication"],
