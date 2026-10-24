@@ -11,7 +11,7 @@ window.SITE = {
   phrases: ["backend APIs", "search systems", "RAG applications", "document pipelines"],
 
   // Skills shown in the scrolling strip under the hero
-  marquee: ["Python", "TypeScript", "Node.js", ".NET", "FastAPI", "LangChain", "RAG", "Embeddings", "Elasticsearch", "ChromaDB", "PostgreSQL", "Azure AD", "Docker", "React", "Next.js", "Angular", "REST APIs", "Vector search"],
+  marquee: ["Python", "TypeScript", "Node.js", ".NET", "FastAPI", "LangChain", "RAG", "Embeddings", "Elasticsearch", "ChromaDB", "PostgreSQL", "Azure AD", "Docker", "React", "Next.js", "Angular", "AI systems"],
 
   experience: [
     {
@@ -99,6 +99,42 @@ window.SITE = {
       tags: ["Python", "Groq", "Streamlit", "Docker"],
       skills: ["Python", "Groq", "Streamlit", "Docker"],
       repo: null
+    },
+    {
+      id: "doc-parsing",
+      name: "Doc Parsing POC",
+      kind: "Document intelligence and parser benchmarking",
+      when: "2025",
+      image: "assets/omnimemory.webp",
+      alt: "Abstract document intelligence visual",
+      filters: ["AI", "Backend"],
+      summary: "A document parsing platform that routes uploaded files or blob URLs through multiple parser engines, normalizes output to Markdown, and compares engine performance on the same document.",
+      points: [
+        "Supports multiple document parsers for PDFs, DOCX, PPTX, XLSX and OCR-heavy inputs.",
+        "Compares parser quality side by side and surfaces a benchmark-ready evaluation flow.",
+        "FastAPI backend with async jobs, provider checks, and cloud/local storage support."
+      ],
+      tags: ["Python", "FastAPI", "OCR", "RAG", "Document AI"],
+      skills: ["Python", "FastAPI", "OCR", "Document parsing", "Evaluation", "LLMs", "Azure"],
+      repo: "https://github.com/Shreyanshi123/doc-parsing"
+    },
+    {
+      id: "recruit-ai",
+      name: "RecruitAI",
+      kind: "AI-powered technical hiring platform",
+      when: "2025",
+      image: "assets/persona.webp",
+      alt: "AI hiring and assessment platform visual",
+      filters: ["AI", "Full-stack"],
+      summary: "A full-stack agentic assessment platform for technical hiring, combining AI evaluation, secure coding sandboxing, and recruiter workflows for candidate screening.",
+      points: [
+        "Supports job-to-candidate analysis, interview flow generation, and scoring workflows.",
+        "Uses secure sandboxed code evaluation and guardrails to assess candidate submissions responsibly.",
+        "Built with FastAPI, React, and a modular AI pipeline for interviews and analytics."
+      ],
+      tags: ["Python", "FastAPI", "React", "AI", "Hiring", "LangGraph"],
+      skills: ["Python", "FastAPI", "React", "TypeScript", "LangGraph", "AI evaluation", "Security", "Full-stack"],
+      repo: "https://github.com/Shreyanshi123/Recruit-AI"
     },
     {
       id: "airline",
