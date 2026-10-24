@@ -1,0 +1,67 @@
+<svg width="1312" height="736" viewBox="0 0 1312 736" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="34" x2="1228" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070D18"/>
+      <stop offset="0.55" stop-color="#0B1727"/>
+      <stop offset="1" stop-color="#101D31"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="198" y1="140" x2="1034" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102235"/>
+      <stop offset="1" stop-color="#19314F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1312" height="736" rx="28" fill="url(#bg)"/>
+  <circle cx="1064" cy="132" r="190" fill="#5EEAD4" opacity="0.08"/>
+  <circle cx="220" cy="620" r="200" fill="#60A5FA" opacity="0.08"/>
+
+  <g>
+    <rect x="170" y="136" width="680" height="430" rx="26" fill="url(#panel)" stroke="#8ED9FF" stroke-opacity="0.16"/>
+    <rect x="210" y="176" width="236" height="18" rx="9" fill="#EAF7FF" fill-opacity="0.12"/>
+    <rect x="210" y="214" width="154" height="12" rx="6" fill="#EAF7FF" fill-opacity="0.08"/>
+
+    <g>
+      <rect x="210" y="254" width="604" height="216" rx="18" fill="#091827" stroke="#82E9FF" stroke-opacity="0.17"/>
+
+      <path d="M260 404C330 368 392 330 468 318C532 307 594 318 688 258" stroke="url(#line)" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="260" cy="404" r="10" fill="#67E8F9"/>
+      <circle cx="372" cy="350" r="10" fill="#7C8CFF"/>
+      <circle cx="468" cy="318" r="10" fill="#60A5FA"/>
+      <circle cx="590" cy="296" r="10" fill="#A78BFA"/>
+      <circle cx="688" cy="258" r="10" fill="#5EEAD4"/>
+
+      <path d="M240 446H774" stroke="#D9F2FF" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round"/>
+      <path d="M240 474H686" stroke="#D9F2FF" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <rect x="902" y="178" width="172" height="110" rx="18" fill="#0C1A2A" stroke="#7DD3FC" stroke-opacity="0.18"/>
+      <circle cx="970" cy="220" r="22" fill="#7DD3FC" fill-opacity="0.16"/>
+      <path d="M960 220L970 230L992 206" stroke="#7DD3FC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="932" y="260" fill="#EAF7FF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Parse</text>
+    </g>
+
+    <g>
+      <rect x="902" y="324" width="172" height="180" rx="18" fill="#0C1A2A" stroke="#7DD3FC" stroke-opacity="0.18"/>
+      <path d="M934 461H1046" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M934 434H1018" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M934 407H989" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M1004 379L1022 361L1048 387L1067 365" stroke="url(#line)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1004" cy="379" r="8" fill="#67E8F9"/>
+      <circle cx="1022" cy="361" r="8" fill="#7C8CFF"/>
+      <circle cx="1048" cy="387" r="8" fill="#A78BFA"/>
+      <circle cx="1067" cy="365" r="8" fill="#5EEAD4"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="170" y="600" width="956" height="82" rx="18" fill="#0C1524" stroke="#7DD3FC" stroke-opacity="0.12"/>
+    <text x="210" y="654" fill="#EAF7FF" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">Doc Parsing Engine</text>
+    <text x="786" y="654" fill="#8EE7FF" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">OCR • parser routing • extraction quality</text>
+  </g>
+</svg>
