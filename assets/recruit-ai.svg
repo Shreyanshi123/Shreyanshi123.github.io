@@ -1,0 +1,64 @@
+<svg width="1312" height="736" viewBox="0 0 1312 736" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="0" x2="1170" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D1A"/>
+      <stop offset="0.48" stop-color="#0D1A2B"/>
+      <stop offset="1" stop-color="#121A2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#55D6FF"/>
+      <stop offset="0.5" stop-color="#7C8CFF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#102232"/>
+      <stop offset="1" stop-color="#172F4A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1312" height="736" rx="28" fill="url(#bg)"/>
+  <circle cx="1048" cy="154" r="180" fill="#5EEAD4" opacity="0.1"/>
+  <circle cx="260" cy="610" r="190" fill="#60A5FA" opacity="0.1"/>
+
+  <g>
+    <rect x="180" y="126" width="680" height="460" rx="26" fill="url(#screen)" stroke="#8ED9FF" stroke-opacity="0.18"/>
+    <rect x="214" y="160" width="250" height="18" rx="9" fill="#D8F3FF" fill-opacity="0.12"/>
+    <rect x="214" y="198" width="180" height="14" rx="7" fill="#D8F3FF" fill-opacity="0.08"/>
+
+    <g>
+      <rect x="214" y="238" width="612" height="250" rx="18" fill="#091827" stroke="#82E9FF" stroke-opacity="0.18"/>
+      <path d="M266 388C346 300 448 274 524 310C580 338 650 343 726 300" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="266" cy="388" r="11" fill="#67E8F9"/>
+      <circle cx="366" cy="340" r="11" fill="#7C8CFF"/>
+      <circle cx="460" cy="304" r="11" fill="#A78BFA"/>
+      <circle cx="566" cy="325" r="11" fill="#5EEAD4"/>
+      <circle cx="726" cy="300" r="11" fill="#7DD3FC"/>
+    </g>
+
+    <g>
+      <rect x="912" y="180" width="168" height="110" rx="16" fill="#0D1726" stroke="#7DD3FC" stroke-opacity="0.2"/>
+      <circle cx="980" cy="220" r="24" fill="#7DD3FC" fill-opacity="0.16"/>
+      <path d="M970 220L980 230L1002 206" stroke="#7DD3FC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="944" y="258" fill="#EAF7FF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">AI Score</text>
+    </g>
+
+    <g>
+      <rect x="912" y="328" width="168" height="180" rx="16" fill="#0D1726" stroke="#7DD3FC" stroke-opacity="0.2"/>
+      <path d="M942 462H1042" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M942 432H1018" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M942 402H992" stroke="#D9F2FF" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path d="M1004 375L1022 357L1048 383L1064 365" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1004" cy="375" r="8" fill="#67E8F9"/>
+      <circle cx="1022" cy="357" r="8" fill="#7C8CFF"/>
+      <circle cx="1048" cy="383" r="8" fill="#A78BFA"/>
+      <circle cx="1064" cy="365" r="8" fill="#5EEAD4"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="180" y="600" width="952" height="82" rx="18" fill="#0C1524" stroke="#7DD3FC" stroke-opacity="0.12"/>
+    <text x="212" y="654" fill="#EAF7FF" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">RecruitAI</text>
+    <text x="868" y="654" fill="#8EE7FF" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">Agentic hiring + secure assessment flow</text>
+  </g>
+</svg>
+
