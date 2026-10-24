@@ -101,29 +101,11 @@ window.SITE = {
       repo: null
     },
     {
-      id: "doc-parsing",
-      name: "Doc Parsing POC",
-      kind: "Document intelligence and parser benchmarking",
-      when: "2025",
-      image: "assets/omnimemory.webp",
-      alt: "Abstract document intelligence visual",
-      filters: ["AI", "Backend"],
-      summary: "A document parsing platform that routes uploaded files or blob URLs through multiple parser engines, normalizes output to Markdown, and compares engine performance on the same document.",
-      points: [
-        "Supports multiple document parsers for PDFs, DOCX, PPTX, XLSX and OCR-heavy inputs.",
-        "Compares parser quality side by side and surfaces a benchmark-ready evaluation flow.",
-        "FastAPI backend with async jobs, provider checks, and cloud/local storage support."
-      ],
-      tags: ["Python", "FastAPI", "OCR", "RAG", "Document AI"],
-      skills: ["Python", "FastAPI", "OCR", "Document parsing", "Evaluation", "LLMs", "Azure"],
-      repo: "https://github.com/Shreyanshi123/doc-parsing"
-    },
-    {
       id: "recruit-ai",
       name: "RecruitAI",
       kind: "AI-powered technical hiring platform",
       when: "2025",
-      image: "assets/persona.webp",
+      image: "assets/recruit-ai.svg",
       alt: "AI hiring and assessment platform visual",
       filters: ["AI", "Full-stack"],
       summary: "A full-stack agentic assessment platform for technical hiring, combining AI evaluation, secure coding sandboxing, and recruiter workflows for candidate screening.",
@@ -135,6 +117,24 @@ window.SITE = {
       tags: ["Python", "FastAPI", "React", "AI", "Hiring", "LangGraph"],
       skills: ["Python", "FastAPI", "React", "TypeScript", "LangGraph", "AI evaluation", "Security", "Full-stack"],
       repo: "https://github.com/Shreyanshi123/Recruit-AI"
+    },
+    {
+      id: "doc-parsing",
+      name: "Doc Parsing POC",
+      kind: "Document intelligence and parser benchmarking",
+      when: "2025",
+      image: "assets/doc-parsing.svg",
+      alt: "Document intelligence and parser comparison visual",
+      filters: ["AI", "Backend"],
+      summary: "A document parsing platform that routes uploaded files or blob URLs through multiple parser engines, normalizes output to Markdown, and compares engine performance on the same document.",
+      points: [
+        "Supports multiple document parsers for PDFs, DOCX, PPTX, XLSX and OCR-heavy inputs.",
+        "Compares parser quality side by side and surfaces a benchmark-ready evaluation flow.",
+        "FastAPI backend with async jobs, provider checks, and cloud/local storage support."
+      ],
+      tags: ["Python", "FastAPI", "OCR", "RAG", "Document AI"],
+      skills: ["Python", "FastAPI", "OCR", "Document parsing", "Evaluation", "LLMs", "Azure"],
+      repo: "https://github.com/Shreyanshi123/doc-parsing"
     },
     {
       id: "airline",
